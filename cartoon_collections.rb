@@ -1,5 +1,8 @@
 def roll_call_dwarves(dwarves)
+  num = 1
+  while num < dwarves.length
   dwarves.map{ |dwarf| p "#{num}. #{dwarf}"}
+  end
 end 
 
 def summon_captain_planet# code an argument here
