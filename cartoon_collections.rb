@@ -7,7 +7,7 @@ end
 
 def summon_captain_planet(calls)
   calls.map{ |call| 
-  
+  "#{call}!"
   }
 end
 
