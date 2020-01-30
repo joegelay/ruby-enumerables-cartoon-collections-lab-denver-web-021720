@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   num = 1
   while num < dwarves.length
-  dwarves.map{ |dwarf| p `#{num}. #{dwarf}`}
+  dwarves.map{ |dwarf| p "#{num}. #{dwarf}"}
   num += 1
   end
 end 
